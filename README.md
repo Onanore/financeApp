@@ -32,7 +32,7 @@ A RESTful API for a finance management application built with Node.js, Express, 
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/finance-app.git
+   git clone https://github.com/Onanore/financeApp.git
    cd finance-app
    ```
 
@@ -41,22 +41,12 @@ A RESTful API for a finance management application built with Node.js, Express, 
    npm install
    ```
 
-3. Configure environment variables
-   Create a `.env` file in the root directory with the following variables:
-   ```
-   NODE_ENV=development
-   PORT=5000
-   MONGO_URI=mongodb://localhost:27017/finance-app
-   JWT_SECRET=your_jwt_secret_key_here
-   JWT_EXPIRES_IN=30d
-   ```
-
-4. Start the development server
+3. Start the development server
    ```
    npm run dev
    ```
 
-5. For production
+4. For production
    ```
    npm start
    ```
